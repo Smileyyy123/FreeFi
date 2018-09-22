@@ -11,15 +11,25 @@
         android:background="@color/colorAccent"
         android:textColor="@color/colorPrimaryDark"
         android:text="WELCOME"
-        android:layout_above="@+id/button"
+        android:layout_above="@+id/makeCallButton"
         android:layout_marginBottom="30dp"/>
 
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Call"
-        android:id="@+id/button"
+        android:text="Make Call"
+        android:id="@+id/makeCallButton"
         android:background="#361ad6"
         android:textColor="#f5ebeb"
         android:layout_centerVertical="true"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="End Call"
+        android:id="@+id/endCallButton"
+        android:background="#361ad6"
+        android:textColor="#f5ebeb"
+        android:layout_below="@+id/makeCallButton"
+        android:layout_marginTop="20dp"/>
 </RelativeLayout>
